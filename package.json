@@ -1,0 +1,24 @@
+{
+  "name": "api-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist",
+    "build": "tsc",
+    "prisma:migrate:dev": "prisma migrate dev",
+    "postbuild": "prisma migrate deploy"
+  },
+  "author": "Adithya Sreyaj",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "prettier": "^3.2.5",
+    "prisma": "^5.12.1",
+    "typescript": "^5.4.5"
+  }
+}
