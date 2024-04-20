@@ -7,7 +7,6 @@
     "start": "node dist",
     "build": "tsc",
     "prisma:migrate:dev": "prisma migrate dev",
-    "postbuild": "prisma migrate deploy"
   },
   "author": "Adithya Sreyaj",
   "license": "MIT",
