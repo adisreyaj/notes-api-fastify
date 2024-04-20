@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist",
     "build": "tsc",
-    "prisma:migrate:dev": "prisma migrate dev",
+    "prisma:migrate:dev": "prisma migrate dev"
   },
   "author": "Adithya Sreyaj",
   "license": "MIT",
